@@ -2,7 +2,7 @@
 #   is palindrome or not
 
 # change this value for a different output
-my_str = "Stunt Nuts"
+my_str = "Civic"
 all_letters = "abcdefghijklmnopqrstuvwxyz"
 found_letters = []
 for letter in my_str.lower():
@@ -20,9 +20,9 @@ rev_str = reversed(found_letters)
 # check if the string is equal to its reverse
 print(found_letters)
 if list(found_letters) == list(rev_str):
-        print("it is palindrome")
+        print("yes, it is palindrome")
 else:
-    print("it is not a palindrome")
+    print("sorry but no, it is not a palindrome")
 
 
 
